@@ -112,7 +112,7 @@ function deploy_hyperspace_node() {
     sleep 5
 
     # 定义模型变量
-    model="hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf"
+    model="hf:second-state/gemma-2b-it-Q4_K_M.gguf"
 
     # 添加模型并重试
     echo "正在通过命令 'aios-cli models add' 添加模型..."
